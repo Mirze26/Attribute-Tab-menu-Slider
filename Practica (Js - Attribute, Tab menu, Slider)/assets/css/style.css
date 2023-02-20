@@ -1,0 +1,79 @@
+
+/* .tab-menu{
+
+}
+
+
+.tab-menu .header{
+    width: 500px;
+    
+background-color: black;
+color: white;
+border: 1px solid rgb(250, 74, 4);
+cursor: pointer;
+}
+
+
+.tab-menu .header .item{
+padding: 10px 20px 10px 20px;
+transition:all 0.6s;
+}
+
+
+.tab-menu .content{
+width: 500px;
+background-color: black;
+padding: 20px;
+color: white;
+border: 1px solid rgb(250, 74, 4);
+}
+
+
+.active{
+    background-color: red;
+    
+} */
+
+/* ------------------------------------------ */
+
+body{
+    background-color: black;
+       
+}
+
+.slider{
+    width: 1240px;
+    position: relative;
+}
+
+.slider .img{
+    width: 100%;
+    position: relative;
+    right: 60px;
+}
+
+.slider .img img{
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+transition: all 0.7s;
+}
+
+.slider i{
+    font-size: 60px;
+    position: absolute;
+    top: 215px;
+    z-index: 1;
+    color: rgb(170, 170, 170);
+    cursor: pointer;
+    
+
+}
+
+.slider i:nth-child(2){
+    right: 128px
+}
+
+.active{
+    opacity: 1 !important;
+}
